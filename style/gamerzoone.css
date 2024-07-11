@@ -1,0 +1,395 @@
+/* font-family:Work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body{
+font-family: 'Open Sans', sans-serif;
+width: 100%;
+}
+/* gamer zone header style */
+/* header{
+    background: #FFF;
+    height: 30px;
+    padding: 0px 100px;
+    padding-top: 5px;
+   
+} */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;  
+}
+nav li{
+    list-style: none;
+    margin: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+nav li a{
+    text-decoration: none;
+    color: #3C354F;
+ 
+}
+.gamer-logo{
+    display: flex;
+    width: 86.041px;
+    height: 40px;
+    padding: 20px;
+    padding-left: 0;
+    gap: 20px;
+    align-items: center;
+}
+nav h3{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+}
+.logo-title-color{
+    color: #FF42A5;
+}
+.nav-container{
+    display: flex;
+    padding-left: 250px;
+   
+}
+.nav-btn-style{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    align-items: center;
+  
+
+}
+.nav-btn-style li{
+    margin: 10px !important;
+    
+}
+
+/* banner style for gamer zone */
+.banner{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../images/Group\ 14.png");
+    padding: 0px 100px;
+    background-repeat: no-repeat;
+
+
+}
+.banner-tite-style{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0px !important;
+}
+.banner-left h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px !important; 
+}
+.banner-left{  
+    width: 500px;
+}
+.banner-left p{
+    display: flex;
+    align-items: center;
+}
+.banner-left p span{
+    padding-left: 10px;
+
+}
+  
+.banner-right{
+    padding-left: 100px;
+    width: 500px;
+}
+.button-sing-in{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: #F948B2;
+    border: none;
+    
+}
+.button-go-rogue{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: #4EC5F7;
+    border: none;
+    margin-left: 10px;
+}
+/* gamer-section */
+.gamer-section{
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+   padding: 50px 100px;
+}
+.gamer-section img{
+    width: 600px;
+}
+.gamer-description{
+    text-align: right;
+    font-size: 30px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-section-design p{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.gamer-section-btn{
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    font-size: 14px;
+    color: #FFF;
+    gap: 10px;
+    border-radius: 20px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    margin: 0 !important;
+    clear: both;
+    
+
+}
+.button-knowmore{
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+}
+.gamer-short-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+}
+/* gamers funny scetion style */
+.game-funny-section-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;  
+
+}
+.funny-text{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+   
+
+}
+.game-funny-title-style{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.game-funny-img{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    gap: 10px;
+    padding: 40px 100px;
+    
+    
+}
+.gamer-pictuer {
+    width: 400px;
+
+}
+.gamer-pictuer img{
+    width: 100%;
+}
+/* play section style */
+.play-section-style{
+    display: flex;
+    margin-top: 50px;
+}
+.play-section-container{
+    text-align: right;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-right: 250px;
+    padding-left: 300px;
+}
+.play-content{
+   
+   
+}
+
+.play-content-style{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.play-content{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
+.play-imge{
+    width: 100%;
+    height: 550px;
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray -7.583px 0px / 102.389% 100% no-repeat;
+}
+.play-image-style{
+    width: 318.5px;
+    height: 365.083px;
+    border-radius: 8px;
+      background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+     
+}
+.play-section-img{
+    position: relative;
+}
+.play-image-style{
+    position: absolute;
+    bottom: -70px;
+    left: -100px;
+    z-index: 2;
+    width: 300px;
+    height: 350px;
+}
+/* review section style */
+.review-style {
+	display: flex;
+	align-items: center;
+	/* padding-top: 100px; */
+	justify-content: space-between;
+	/* width: 1320px; */
+	height: 200px;
+    flex-wrap: wrap;
+    padding: 100px 150px ;
+}
+.review{
+    display: flex;
+    align-items: center;
+    width: 200px; 
+    
+   
+}
+.review p{
+    margin: 10px;
+}
+.review p:hover{
+    margin: 10px;
+    color: red;
+    
+}
+.review:hover{
+    border: 1px solid red;
+    border-radius: 50px;
+}
+.footer-style{
+    width: 100%;
+    height: 500px;
+    background: #0B0223;
+    margin: 0px;
+    margin-left: -1px;
+}
+.footer-logo-style{
+    display: flex;
+    color: #FFF;
+    justify-content: center;
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+.footer-logo img{
+    padding-right: 10px;
+}
+.footer-logo h2 span{
+    color:#F948B2;
+    font-size: 40px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.first-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 200px
+}
+.second-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 200px
+}
+.first-ul li, .second-ul li{
+    color: #fff;
+    font-size: 20px;
+    list-style: none;
+    padding: 10px;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 20px;
+}
+.middle-ul{
+    display: flex;
+    align-items: center;
+    padding: 10px 300px;
+    justify-content: space-between;
+}
+.middle-ul li{
+    list-style: none;
+}
+@media screen and (max-width: 480px) {
+    nav{
+       flex-direction: column;
+       justify-content: center;
+       display: flex;
+       padding: 0px;
+    }
+    .nav-container{
+        padding-left: 0px !important;
+    }
+    
+    .nav-items{
+        flex-direction: column;
+        justify-content: center;
+    }
+  }
